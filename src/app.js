@@ -96,10 +96,10 @@ const App = () => {
             path="/super_admin"
             component={props => <SuperAdminLayout {...props} />}
           />
-          <PrivateRoute
+          {/* <PrivateRoute
             path="/restaurant"
             component={props => <RestaurantLayout {...props} />}
-          />
+          /> */}
           <PrivateRoute
             path="/admin"
             component={props => <AdminLayout {...props} />}
