@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { getToken, onMessage } from 'firebase/messaging'
 import AdminLayout from './layouts/Admin.jsx'
-import RestaurantLayout from './layouts/Restaurant.jsx'
+// import RestaurantLayout from './layouts/Restaurant.jsx'
 import AuthLayout from './layouts/Auth.jsx'
 import SuperAdminLayout from './layouts/SuperAdmin.jsx'
 import { PrivateRoute } from './views/PrivateRoute'
@@ -98,7 +98,7 @@ const App = () => {
           />
           {/* <PrivateRoute
             path="/restaurant"
-            component={props => <RestaurantLayout {...props} />}
+            // component={props => <RestaurantLayout {...props} />}
           /> */}
           <PrivateRoute
             path="/admin"

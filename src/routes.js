@@ -6,14 +6,14 @@ import Orders from './views/Orders'
 import Configuration from './views/Configuration'
 import Users from './views/Users'
 import Vendors from './views/Vendors'
-import RestaurantList from './views/RestaurantList'
+// import RestaurantList from './views/RestaurantList'
 import ResetPassword from './views/ForgotPassword'
 import Riders from './views/Riders'
 import Options from './views/Options'
 import Addons from './views/Addons'
 import Coupons from './views/Coupons'
 import Dashboard from './views/Dashboard'
-import Restaurant from './views/Restaurant'
+// import Restaurant from './views/Restaurant'
 import Ratings from './views/Rating'
 import Dispatch from './views/Dispatch'
 import Timings from './views/Timings'
@@ -28,15 +28,15 @@ import DispatchRestaurant from './views/DispatchRestaurant'
 import WithdrawRequest from './views/WithdrawRequest'
 
 var routes = [
-  {
-    path: '/list',
-    name: 'List',
-    icon: 'ni ni-tv-2 text-primary',
-    component: Restaurant,
-    layout: '/restaurant',
-    appearInSidebar: false,
-    admin: false
-  },
+  // {
+  //   path: '/list',
+  //   name: 'List',
+  //   icon: 'ni ni-tv-2 text-primary',
+  //   component: Restaurant,
+  //   layout: '/restaurant',
+  //   appearInSidebar: false,
+  //   admin: false
+  // },
   {
     path: '/dashboard',
     name: 'Dashboard',
@@ -91,15 +91,15 @@ var routes = [
     appearInSidebar: true,
     admin: true
   },
-  {
-    path: '/restaurants',
-    name: 'Restaurants',
-    icon: 'ni ni-collection text-primary',
-    component: RestaurantList,
-    layout: '/super_admin',
-    appearInSidebar: true,
-    admin: true
-  },
+  // {
+  //   path: '/restaurants',
+  //   name: 'Restaurants',
+  //   icon: 'ni ni-collection text-primary',
+  //   component: RestaurantList,
+  //   layout: '/super_admin',
+  //   appearInSidebar: true,
+  //   admin: true
+  // },
   {
     path: '/sections',
     name: 'Restaurant Sections',
